@@ -1,0 +1,150 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.97285709176192,10.324168909418125
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "6am - 10pm",
+                "description": "Spanish restaurant",
+                "name": "Arano's Bar and Restaurant",
+                "img_specialty": "arano.png",
+                "phone": "0322561934",
+                "storeid": "01"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.91094630672966, 10.340360802409993
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "Lighthouse Restaurant",
+                "img_specialty": "lighthouse.png",
+                "phone": "0322561934",
+                "storeid": "02"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.89967499447926,10.331600032322589
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "Amarillo Restaurant",
+                "img_specialty": "amarillo.png",
+                "phone": "0322561934",
+                "storeid": "03"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.86078100000188,10.307479115421428
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "Dungawan Garden Restaurant",
+                "img_specialty": "dungawan.png",
+                "phone": "0322561934",
+                "storeid": "04"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.93228768298798,10.324817680611446
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "Minnan Seafood restaurant",
+                "img_specialty": "minnan.png",
+                "phone": "0322561934",
+                "storeid": "05"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.99672994899996,10.286404182834735
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "A MESA TAPAS",
+                "img_specialty": "mesa.png",
+                "phone": "0322561934",
+                "storeid": "06"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.90158030023896,10.30037467076687
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "Clare Restaurant",
+                "img_specialty": "clare.png",
+                "phone": "0322561934",
+                "storeid": "07"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.91011046556444,10.327163999672354
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Restaurant",
+                "name": "PUESTO RESTAURANT",
+                "img_specialty": "puesto.png",
+                "phone": "0322561934",
+                "storeid": "08"
+            }
+        }
+
+
+    ]
+}
