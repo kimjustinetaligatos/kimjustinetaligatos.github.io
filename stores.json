@@ -143,6 +143,60 @@
                 "phone": "0322561934",
                 "storeid": "08"
             }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.92516970593434,10.319215321106633
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "mall",
+                "hours": "10am - 6pm",
+                "description": "Mall",
+                "name": "Ayala Malls Gatewalk Central",
+                "img_specialty": "mallbanner.jpg",
+                "phone": "0322561934",
+                "storeid": "09"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.96250605953293,10.303001948283834
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "mall",
+                "hours": "10am - 6pm",
+                "description": "Mall",
+                "name": "Southgate Mall",
+                "img_specialty": "mallbanner.jpg",
+                "phone": "0322561934",
+                "storeid": "10"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.89418483216461,10.310939840471542
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "mall",
+                "hours": "10am - 6pm",
+                "description": "Mall",
+                "name": "Robinsons Fuente",
+                "img_specialty": "mallbanner.jpg",
+                "phone": "0322561934",
+                "storeid": "11"
+            }
         }
 
 
