@@ -88,6 +88,32 @@ function initMap() {
         styles: mapStyle,
     });
 
+    //DEFAULT ADDRESS
+    var request = {
+        query: 'Mandaue-Mactan Bridge, Lapu-Lapu City, Cebu, Philippines',
+        fields: ['name', 'geometry'],
+    };
+
+    service = new google.maps.places.PlacesService(map);
+
+    service.findPlaceFromQuery(request, async function(results, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK) {
+            // Recenter the map to the selected address
+            originLocation = results[0].geometry.location;
+            map.setCenter(originLocation);
+            map.setZoom(13.5);
+
+            originMarker.setPosition(originLocation);
+            originMarker.setVisible(true);
+
+            // Use the selected address as the origin to calculate distances
+            // to each of the store locations
+            const rankedStores = await calculateDistances(map.data, originLocation, map);
+            showStoresList(map.data, rankedStores);
+        }
+    });
+    //END DEFAULT ADDRESS
+
     directionsService = new google.maps.DirectionsService();
     directionsRenderer = new google.maps.DirectionsRenderer();
 
@@ -202,6 +228,10 @@ function initMap() {
         return;
     });
 
+
+    setTimeout(function () {
+        document.getElementById("pac-input").value = "Mandaue-Mactan Bridge, Lapu-Lapu City, Cebu, Philippines";
+    },2000)
 
 }
 
